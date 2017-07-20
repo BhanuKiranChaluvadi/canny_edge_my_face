@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <name>canny_edge_my_face</name>
+  <version>0.1.0</version>
+  <description>canny edge detection with ROS</description>
+
+  <maintainer email="nthdimensionalreality@gmail.com">BhanuKiran Chaluvadi</maintainer>
+  <license>BSD</license>
+  <url type="website">https://github.com/BhanuKiranChaluvadi/canny_edge_my_face</url>
+  <author email="nthdimensionalreality@gmail.com">BhanuKiran Chaluvadi</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>cv_camera</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>cv_camera</run_depend>
+
+</package>

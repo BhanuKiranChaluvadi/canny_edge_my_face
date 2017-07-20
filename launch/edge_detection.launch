@@ -1,0 +1,4 @@
+<launch>
+	<node name="webcam" pkg="cv_camera" type="cv_camera_node" output="screen"/>
+	<node name="edge_detection_node" pkg="canny_edge_my_face" type="canny_edge_detection.py" output="screen"/>
+</launch>
