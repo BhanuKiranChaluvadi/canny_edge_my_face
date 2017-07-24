@@ -22,6 +22,7 @@ class EdgeDetection(object):
 		try:
 			# Convert your ROS image into OPENCV2
 			cv2_img = self.bridge.imgmsg_to_cv2(msg, 'bgr8')
+			# Appl canny edges
 			edges = cv2.Canny(cv2_img,100,200)
 			cv2.imshow('Edges', edges)
 			cv2.waitKey(3)
